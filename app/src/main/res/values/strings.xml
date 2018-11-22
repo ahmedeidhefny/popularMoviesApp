@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <string name="sorted_by">Sorted By:</string>
+    <string name="action_popular">Popular Movies</string>
+    <string name="action_highest_rate">Highest Rate Movies</string>
+    <string name="action_favorite">Favorites Movies</string>
+    <string name="action_close">Close</string>
+
+    <string name="overview_label">Overview</string>
+    <string name="trailers_label">Trailers</string>
+    <string name="review_label">Reviews</string>
+    <string name="rating_label">rating:</string>
+
+    <string name="content_description">Movie Poster Image</string>
+
+    <string name="error_massage">Movie Data not available</string>
+    <string name="error_massage_list_movies">Failed to get results, Please try again.</string>
+
+    <string name="error_review">Sorry, Not Found Reviews</string>
+    <string name="error_trailer">Sorry, Not Found Trailers</string>
+
+    <string name="error_release_date">The Release Date Unknown</string>
+    <string name="error_title">The Title Unknown</string>
+    <string name="error_overview">The overview Unknown</string>
+</resources>
