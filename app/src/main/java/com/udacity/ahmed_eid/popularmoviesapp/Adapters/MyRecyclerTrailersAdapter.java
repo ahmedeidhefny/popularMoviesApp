@@ -2,6 +2,7 @@ package com.udacity.ahmed_eid.popularmoviesapp.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -60,7 +61,20 @@ public class MyRecyclerTrailersAdapter extends RecyclerView.Adapter<MyRecyclerTr
                 myContext.startActivity(intent);
             }
         });
+        //Determine if the device is a smartphone or tablet?
+        //Determine if the device is a smartphone or tablet?
+        boolean isTabletVar = isTablet(myContext);
+        if (isTabletVar == true) {
 
+        } else {
+
+        }
+
+    }
+
+    public Boolean isTablet(Context context) {
+        return (context.getResources().getConfiguration().screenLayout
+                & Configuration.SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_LARGE;
     }
 
     @Override
@@ -79,6 +93,7 @@ public class MyRecyclerTrailersAdapter extends RecyclerView.Adapter<MyRecyclerTr
             trailerName = itemView.findViewById(R.id.trailerTitle);
             rootLayout = itemView.findViewById(R.id.rootLayout);
         }
+
     }
 }
 

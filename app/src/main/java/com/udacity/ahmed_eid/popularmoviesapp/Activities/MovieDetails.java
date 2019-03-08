@@ -2,7 +2,9 @@ package com.udacity.ahmed_eid.popularmoviesapp.Activities;
 
 import android.annotation.SuppressLint;
 import android.arch.lifecycle.ViewModelProviders;
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -122,6 +124,7 @@ public class MovieDetails extends AppCompatActivity implements View.OnClickListe
         finish();
         Toast.makeText(getApplicationContext(), R.string.error_massage, Toast.LENGTH_LONG).show();
     }
+
 
     @Override
     public void onClick(View v) {

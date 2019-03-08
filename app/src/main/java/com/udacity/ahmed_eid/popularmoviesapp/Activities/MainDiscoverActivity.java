@@ -60,12 +60,12 @@ public class MainDiscoverActivity extends AppCompatActivity {
         gridView = findViewById(R.id.gridView);
         tv_errorMassage = findViewById(R.id.error_massage_display);
         pb_loadingIndicator = findViewById(R.id.pb_loading_indicator);
-
-        setSpinner();
+        fetchDataFromAPI(AppConstants.popularMoviesUrl);
+        //setSpinner();
     }
 
     public void setSpinner() {
-        spinner = findViewById(R.id.spinner);
+        // spinner = findViewById(R.id.spinner);
         ArrayAdapter adapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_spinner_item, sortedBy);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
@@ -143,6 +143,10 @@ public class MainDiscoverActivity extends AppCompatActivity {
             case R.id.app_bar_close:
                 finish();
                 break;
+            default:
+                fetchDataFromAPI(AppConstants.popularMoviesUrl);
+                break;
+
 
         }
         return super.onOptionsItemSelected(item);

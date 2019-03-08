@@ -67,6 +67,7 @@ public class MyGridAdapter extends ArrayAdapter<Movie> {
                 bundle.putString(AppConstants.mReleaseDateKey, mReleaseDate);
 
                 goToMovieDetails.putExtras(bundle);
+                goToMovieDetails.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(goToMovieDetails);
             }
         });

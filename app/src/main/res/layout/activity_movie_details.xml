@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/activity_horizontal"
+    android:padding="8dp"
     tools:context=".Activities.MovieDetails">
 
     <ScrollView
@@ -12,7 +12,8 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:padding="8dp">
 
             <LinearLayout
                 android:id="@+id/llHor"
@@ -37,8 +38,7 @@
                     <TextView
                         android:id="@+id/movieTitle"
                         android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textColor="@color/colorPrimaryDark"
                         android:textStyle="bold"
@@ -113,12 +113,13 @@
 
             <TextView
                 android:id="@+id/movieOverview"
-                android:layout_width="wrap_content"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/movieOverviewLabel"
                 android:layout_marginTop="12dp"
                 android:background="@android:color/white"
                 android:padding="8dp"
+                android:layout_centerHorizontal="true"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
             <View
@@ -141,8 +142,9 @@
                 android:textStyle="bold" />
 
             <android.support.v7.widget.RecyclerView
+                android:layout_centerHorizontal="true"
                 android:id="@+id/recyclerView_trailers"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/movieTrailersLabel"></android.support.v7.widget.RecyclerView>
 
@@ -177,8 +179,9 @@
                 android:textStyle="bold" />
 
             <android.support.v7.widget.RecyclerView
+                android:layout_centerHorizontal="true"
                 android:id="@+id/recyclerView_reviews"
-                android:layout_width="match_parent"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/movieReviewsLabel"></android.support.v7.widget.RecyclerView>
 
@@ -193,8 +196,6 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/colorError"
                 android:visibility="invisible" />
-
-
         </RelativeLayout>
     </ScrollView>
 </FrameLayout>
