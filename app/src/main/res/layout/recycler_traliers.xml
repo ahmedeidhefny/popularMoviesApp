@@ -2,26 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/rootLayout"
     android:layout_width="350dp"
-    android:layout_height="wrap_content"
-    android:background="@android:color/white"
+    android:layout_height="120dp"
     android:orientation="horizontal"
     android:padding="8dp">
 
     <ImageView
         android:id="@+id/trailerImage"
         android:layout_width="0dp"
-        android:layout_height="100dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:scaleType="centerCrop" />
 
     <TextView
         android:id="@+id/trailerTitle"
         android:layout_width="0dp"
-        android:layout_height="100dp"
+        android:layout_height="match_parent"
         android:layout_marginLeft="8dp"
         android:layout_weight="1"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@android:color/black"
         android:textStyle="bold" />
 </LinearLayout>
 

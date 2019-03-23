@@ -10,7 +10,7 @@
     <string name="overview_label">Overview</string>
     <string name="trailers_label">Trailers</string>
     <string name="review_label">Reviews</string>
-    <string name="rating_label">rating:</string>
+    <string name="rating_label">Rating:</string>
 
     <string name="content_description">Movie Poster Image</string>
 

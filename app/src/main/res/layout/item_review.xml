@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:background="@android:color/white"
-    android:padding="8dp"
     android:layout_marginBottom="@dimen/activity_vertical"
-    >
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="8dp">
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/author"
-        tools:text="author"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textStyle="bold"
-        android:textColor="@android:color/black"
-        />
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"/>
+
+    <TextView
         android:id="@+id/content"
-        tools:text="I honestly don't know what everyone's talking about, _Venom_ is **fine**! I mean... It's not great. There were a few moments I found myself thinking This bit's pretty bad, why did they do this? and a lot of moments I found myself thinking This bit's pretty good, but they still probably should have just made a **real** _Venom_ movie with Marvel.\r\n\r\nBut it's fine. The absolute best parts are the interactions taking place within Venom himself (between Brock and the Symbiote) and the movie would have been a lot worse if Tom Hardy wasn't capable of pulling that off. Look, a _Venom_ movie probably should have been rated R"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
 
 </LinearLayout>

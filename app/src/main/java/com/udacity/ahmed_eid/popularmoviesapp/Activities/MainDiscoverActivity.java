@@ -153,14 +153,14 @@ public class MainDiscoverActivity extends AppCompatActivity {
     }
 
     public void showErrorMassage(String massage) {
-        gridView.setVisibility(View.INVISIBLE);
+        gridView.setVisibility(View.GONE);
         tv_errorMassage.setVisibility(View.VISIBLE);
         tv_errorMassage.setText(massage);
     }
 
     public void showJsonDataView() {
         gridView.setVisibility(View.VISIBLE);
-        tv_errorMassage.setVisibility(View.INVISIBLE);
+        tv_errorMassage.setVisibility(View.GONE);
     }
 
     //<parameters ,progress ,result>
