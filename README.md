@@ -1,6 +1,4 @@
 # Popular Movies App
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
+[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=nceUSuYjNXM)
 
-[![asciicast](https://asciinema.org/a/113463.png)](https://asciinema.org/a/113463)
