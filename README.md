@@ -3,7 +3,7 @@
 - Allow the users to mark a movie as a favorite locally to view them offline.
 
 
-###..............................
+### ..............................
 - Programming Language is Java.
 - Android Clean Architecture MVVM.
 - Integrate Third-party Libraries in app.
