@@ -9,5 +9,7 @@
 - Integrate Third-party Libraries in app.
 - Used TheMovieDB API.
 - Store data offline using Room and liveData.
+- Used Volley to Fetch movies from API.
+- Used Picasso and AysncTask in app.
 
 
