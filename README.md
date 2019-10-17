@@ -1,4 +1,13 @@
-# Popular Movies App
+### Popular Movies App
+- App display a grid arrangement of the popular or highest rated movies, and allow the user to tap on a movie poster and transition to a Details Screen to watch trailers or read reviews.
+- Allow the users to mark a movie as a favorite locally to view them offline.
 
-<video width="320" height="240" controls><source src="https://www.youtube.com/watch?v=0n_mf1CEGlA&t=433s.mp4" type="video/mp4"></video>
+
+###..............................
+- Programming Language is Java.
+- Android Clean Architecture MVVM.
+- Integrate Third-party Libraries in app.
+- Used TheMovieDB API.
+- Store data offline using Room and liveData.
+
 
