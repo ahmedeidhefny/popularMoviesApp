@@ -3,6 +3,9 @@
 - Allow the users to mark a movie as a favorite locally to view them offline.
 
 
+<img src="https://user-images.githubusercontent.com/39660065/67129878-0f2c6400-f200-11e9-9a1b-43777a441bc0.png" width="200" heigh="300" /> <img src="https://user-images.githubusercontent.com/39660065/67129821-e6a46a00-f1ff-11e9-9ff2-c15ef2d189db.png" width="200" heigh="300" />
+
+
 ### ..............................
 - Programming Language is Java.
 - Android Clean Architecture MVVM.
